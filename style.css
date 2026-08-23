@@ -74,16 +74,21 @@ button {
     display: block;
 }
 
-.nav-logo img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-}
-
-.nav-links {
+.nav-logo {
+    width: 135px;
+    height: 70px;
     display: flex;
     align-items: center;
-    gap: 45px;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.nav-logo img {
+    width: 135px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    mix-blend-mode: multiply;
 }
 
 .nav-links a,
